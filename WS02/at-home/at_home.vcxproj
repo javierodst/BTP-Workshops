@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{97C0984A-4553-4898-9ABF-0FD7039E8C6C}</ProjectGuid>
+    <ProjectGuid>{9CCF033D-583B-46CE-9CEA-22879EAB4125}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>inlab</RootNamespace>
+    <RootNamespace>at_home</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,6 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="kingdom.cpp" />
+    <ClCompile Include="w2_at_home.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kingdom.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
