@@ -17,8 +17,8 @@
     // gcd returns the greatest common divisor of num and denom
     //
     int Fraction::gcd() const {
-        int mn = max();  // min of numerator and denominator
-        int mx = min();  // max of numerator and denominator
+        int mn = min();  // min of numerator and denominator
+        int mx = max();  // max of numerator and denominator
         int g_c_d = 1;
         bool found = false;
 
@@ -31,7 +31,7 @@
         return g_c_d;
     }
 
-    // TODO: implement the reduce modifier  
+    // TODO: implement the reduce modifier
     // reduce simplifies the fraction by dividing the numerator and denominator by the greatest common divisor
     //
     void Fraction::reduce() {
@@ -46,7 +46,7 @@
     // TODO: implement the isEmpty query
     // isEmpty returns true if Fraction object is in a safe empty state
     //
- 
+
     // TODO: implement the + operator
     // + operator adds the rhs to the current object and reduces the result
     //
