@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{97C0984A-4553-4898-9ABF-0FD7039E8C6C}</ProjectGuid>
+    <ProjectGuid>{362178AD-6931-43FD-8F82-88814862B015}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>inlab</RootNamespace>
+    <RootNamespace>in_lab</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,6 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fight.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="w7_in_lab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fight.h" />
+    <ClInclude Include="Hero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
