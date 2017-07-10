@@ -12,6 +12,7 @@
 #include "SuperHero.h"
 
 using namespace std;
+using namespace sict;
 
 void line(int width)
 {

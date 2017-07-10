@@ -11,6 +11,7 @@
 #include "Hero.h"
 
 using namespace std;
+using namespace sict;
  
 int main() {
   
